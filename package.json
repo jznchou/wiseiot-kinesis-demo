@@ -1,0 +1,21 @@
+{
+  "name": "test-kinesis-stream",
+  "version": "1.0.0",
+  "description": "testing kinesis stream api with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dataStream"
+  },
+  "author": "Jason",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.641.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "kinesis-readable": "^1.2.0",
+    "plotly": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

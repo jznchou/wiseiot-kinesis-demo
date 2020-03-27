@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style>
+		.btn {
+			background-color: #4b5052;
+			border: 2px solid black;
+			color: whitesmoke;
+			padding: 1em 1.5em;
+			text-align: center;
+			text-decoration: none;
+			font-size: 1em;
+		}
+	</style>
+	
+	<title>Kinesis Stream Demo</title>
+</head>
+<body>
+	<div id="navbar"><h1>Real-time Data From AWS Kinesis</h1></div>
+	<div id="chart"></div>
+	<div><button type="button" class="btn" id="startStopBtn">Start/Stop</button></div>
+	<div id="msBehindLatest"></div>
+	<div id="dataDisplay"></div>
+	<div id="streamData"></div>
+	<div id="kinesis"></div>
+	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.641.0.min.js"></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<!-- <script src="producer.js"></script> -->
+	<script src="index.js"></script>
+</body>
+</html>
+
