@@ -1,7 +1,7 @@
 const kinesis = new AWS.Kinesis({
-	region: 'us-east-2',
-	accessKeyId: 'AKIA34GWMGJIKM52LP7C',
-	secretAccessKey: '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'
+	region: 'REGION',
+	accessKeyId: 'ACCESS_KEY_ID',
+	secretAccessKey: 'SECRET_ACCESS_KEY'
 });
 
 var consumerRunning = false;
