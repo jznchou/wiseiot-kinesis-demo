@@ -3,9 +3,9 @@ const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
 const express = require('express');
+const AWS = require('aws-sdk');
 const port = 3000;
 const app = express();
-
 
 
 // set public folder
