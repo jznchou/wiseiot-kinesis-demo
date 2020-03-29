@@ -12,10 +12,17 @@ var msBehindLatest;
 
 // Initialize chart
 var xcount = 0;
-Plotly.plot('chart', [{
+var layout = {
+	yaxis: {
+		range: [0, 4000]
+	}
+}
+var initData = [{
 	y: [0],
 	type: 'line'
-}]);
+}]
+
+Plotly.plot('chart', initData, layout);
 
 // Toggles consumer on/off with button click
 function startStop() {
@@ -119,7 +126,7 @@ function extendPlot(dataArray) {
 	let amplitude = dataArray;
 
 	// Extend chart with new data
-	var plotData = {y: [amplitude]}
+	let plotData = {y: [amplitude]}
 	Plotly.extendTraces('chart', plotData, [0]);
 	xcount += amplitude.length;
 

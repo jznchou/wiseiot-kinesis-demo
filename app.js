@@ -4,7 +4,7 @@ const path = require('path');
 const cors = require('cors');
 const express = require('express');
 const AWS = require('aws-sdk');
-const port = 5000;
+const port = 8080;
 const app = express();
 
 
