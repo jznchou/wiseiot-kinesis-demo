@@ -13,8 +13,9 @@ var msBehindLatest;
 // Initialize chart
 var xcount = 0;
 var layout = {
+	height: 600,
 	yaxis: {
-		range: [0, 4000]
+		range: [0, 3500]
 	}
 }
 var initData = [{
@@ -131,10 +132,10 @@ function extendPlot(dataArray) {
 	xcount += amplitude.length;
 
 	// Scrolling chart of fixed x axis length
-	if (xcount > 500) {
+	if (xcount > 1200) {
 		Plotly.relayout('chart', {
 			xaxis: {
-				range: [xcount - 500, xcount]
+				range: [xcount - 1200, xcount]
 			}
 		});
 	}
