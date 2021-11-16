@@ -9,7 +9,7 @@
   "author": "Jason",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.641.0",
+    "aws-sdk": "^2.814.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "kinesis-readable": "^1.2.0",
