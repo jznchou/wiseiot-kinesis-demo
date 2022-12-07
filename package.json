@@ -11,7 +11,7 @@
   "dependencies": {
     "aws-sdk": "^2.641.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "kinesis-readable": "^1.2.0",
     "plotly": "^1.0.6"
   },
